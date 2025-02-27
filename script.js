@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 确认按钮事件  | envent of button
     elements.confirmButton.addEventListener('click', () => {
         // const username = elements.nameInput.value.substring(0, 20);
-        const username = 'quanquan';
+        const username = '泉';
         elements.questionText.innerHTML = i18n.template(
             i18n.translations.questionTemplate, 
             { username: username || '' }
