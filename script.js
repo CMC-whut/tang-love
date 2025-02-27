@@ -100,47 +100,47 @@ async function initLanguageSwitcher() {
     const languages = [
         // 🌏 中文系
         'zh-CN',    // 🇨🇳 简体中文（中国大陆）| Simplified Chinese
-        'zh-TW',    // TW 繁體中文（中國臺灣）| Traditional Chinese (Taiwan)
-        'zh-HK',    // 🇭🇰 繁體中文（香港）| Traditional Chinese (Hong Kong)
-        'zh-MO',    // 🇲🇴 繁體中文（澳門）| Traditional Chinese (Macau)
+        // 'zh-TW',    // TW 繁體中文（中國臺灣）| Traditional Chinese (Taiwan)
+        // 'zh-HK',    // 🇭🇰 繁體中文（香港）| Traditional Chinese (Hong Kong)
+        // 'zh-MO',    // 🇲🇴 繁體中文（澳門）| Traditional Chinese (Macau)
       
         // 🌍 英语系
         'en',       // 🌐 英语（通用）| English (General)
 
-        // 🌏 东亚语言
-        'ja',       // 🇯🇵 日本語 | Japanese
-        'ko',       // 🇰🇷 한국어 | Korean 
-      
-        // 🌏 东南亚语言
-        'th',       // 🇹🇭 ภาษาไทย | Thai
-        'vi',       // 🇻🇳 Tiếng Việt | Vietnamese
-        'id',       // 🇮🇩 Bahasa Indonesia | Indonesian
-        'ms',       // 🇲🇾 Bahasa Melayu | Malay
-      
-        // 🇪🇺 欧洲语言
-        'de',       // 🇩🇪 Deutsch | German (General)
-        'de-DE',    // 🇩🇪 Deutsch (Deutschland) 
-        'fr',       // 🇫🇷 Français | French (General)
-        'fr-FR',    // 🇫🇷 Français (France) 
-        'es',       // 🇪🇸 Español | Spanish (General)
-        'es-ES',    // 🇪🇸 Español (España) 
-        'es-MX',    // 🇲🇽 Español (México) 
-        'it',       // 🇮🇹 Italiano | Italian
-        'ru',       // 🇷🇺 Русский | Russian
-        'pt',       // 🇵🇹 Português | Portuguese (General)
-        'pt-BR',    // 🇧🇷 Português (Brasil)  
-        'pt-PT',    // 🇵🇹 Português (Portugal) 
-      
-        // 🌍 其他主要语言
-        'ar',       // 🇸🇦 العربية | Arabic (Standard)
-        'hi',       // 🇮🇳 हिन्दी | Hindi
-        'tr',       // 🇹🇷 Türkçe | Turkish
-        'nl',       // 🇳🇱 Nederlands | Dutch
-        'pl',       // 🇵🇱 Polski | Polish
-        'sv',       // 🇸🇪 Svenska | Swedish
-        'fi',       // 🇫🇮 Suomi | Finnish
-        'he',       // 🇮🇱 עברית | Hebrew
-        'el',       // 🇬🇷 Ελληνικά | Greek
+        // // 🌏 东亚语言
+        // 'ja',       // 🇯🇵 日本語 | Japanese
+        // 'ko',       // 🇰🇷 한국어 | Korean
+        //
+        // // 🌏 东南亚语言
+        // 'th',       // 🇹🇭 ภาษาไทย | Thai
+        // 'vi',       // 🇻🇳 Tiếng Việt | Vietnamese
+        // 'id',       // 🇮🇩 Bahasa Indonesia | Indonesian
+        // 'ms',       // 🇲🇾 Bahasa Melayu | Malay
+        //
+        // // 🇪🇺 欧洲语言
+        // 'de',       // 🇩🇪 Deutsch | German (General)
+        // 'de-DE',    // 🇩🇪 Deutsch (Deutschland)
+        // 'fr',       // 🇫🇷 Français | French (General)
+        // 'fr-FR',    // 🇫🇷 Français (France)
+        // 'es',       // 🇪🇸 Español | Spanish (General)
+        // 'es-ES',    // 🇪🇸 Español (España)
+        // 'es-MX',    // 🇲🇽 Español (México)
+        // 'it',       // 🇮🇹 Italiano | Italian
+        // 'ru',       // 🇷🇺 Русский | Russian
+        // 'pt',       // 🇵🇹 Português | Portuguese (General)
+        // 'pt-BR',    // 🇧🇷 Português (Brasil)
+        // 'pt-PT',    // 🇵🇹 Português (Portugal)
+        //
+        // // 🌍 其他主要语言
+        // 'ar',       // 🇸🇦 العربية | Arabic (Standard)
+        // 'hi',       // 🇮🇳 हिन्दी | Hindi
+        // 'tr',       // 🇹🇷 Türkçe | Turkish
+        // 'nl',       // 🇳🇱 Nederlands | Dutch
+        // 'pl',       // 🇵🇱 Polski | Polish
+        // 'sv',       // 🇸🇪 Svenska | Swedish
+        // 'fi',       // 🇫🇮 Suomi | Finnish
+        // 'he',       // 🇮🇱 עברית | Hebrew
+        // 'el',       // 🇬🇷 Ελληνικά | Greek
       ];
     
     // 动态加载选项 | Dynamically load options
